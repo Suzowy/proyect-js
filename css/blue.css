@@ -1,0 +1,60 @@
+body {
+  background: url("../img/blue1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#global {
+  background: #e6f2fb;
+}
+
+#logo,
+#acordeon .ui-state-active {
+  background: #0d6c7e;
+}
+
+#menu ul li:hover {
+  background: #0d6c7e;
+}
+
+.button-more,
+.subir,
+#logout,
+.entrar {
+  --color: #0d6c7e;
+}
+
+#sidebar img {
+  filter: grayscale(50%) hue-rotate(240deg) contrast(150%);
+}
+
+#sidebar h4 span {
+  background: #0d6b7ea3;
+  color: #e6f2fb;
+}
+
+#sidebar strong {
+  color: #0d6b7ea3;
+}
+
+/* reloj */
+.date2,
+.year {
+  color: #5e47df;
+}
+.day2 {
+  color: #0d6c7e;
+}
+.month2 {
+  color: #7184e4;
+}
+
+.front {
+  background: #5e47df;
+}
+.right {
+  background: #7184e4;
+}
+.left {
+  background: #0d6c7e;
+}

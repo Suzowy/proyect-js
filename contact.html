@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-Javascript</title>
+
+    <!-- estilos css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/blue.css">
+
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css">
+    <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- plugin validacion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+    <!-- mis scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body>
+
+    <div id="selector-theme">
+        <div id="to-blue"></div>
+        <div id="to-red"></div>
+        <div id="to-black"></div>
+    </div>
+
+    <section id="global">
+
+        <!-- cabecera -->
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Acordeon</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- contenido -->
+        <section id="content">
+
+            <div id="box">
+
+                <!-- cargar formulario de contacto -->
+                <h2>Contacto</h2>
+                <form action="" method="post" id="form_contact">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" data-validation="alphanumeric">
+
+                    <label for="surname">Apellidos</label>
+                    <input type="text" name="surname" data-validation="alphanumeric">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" data-validation="email">
+
+                    <label for="sex">Sexo</label>
+
+                    <select name="sex" data-validation="required">
+                        <option value="men">hombre</option>
+                        <option value="woman">Mujer</option>
+                    </select>
+
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy" id="date">
+
+                    <label for="years">Edad</label>
+                    <input type="number" name="years" data-validation="number">
+
+                    <input type="submit" class="entrar">
+                </form>
+
+
+            </div>
+            <sidebar id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien soy?</span></h4>
+                    <img src="img/foto-perfil.png" alt="">
+                    <p>Iniciando mi trayectoria en el campo de la programación y diseño web, encuentro mi lugar entre líneas de código y conceptos de diseño. Con mi laptop y una taza de café, navego por tutoriales y memes de la comunidad, buscando fusionar creatividad y profesionalidad en cada proyecto. Aquí estoy, dando los primeros pasos con determinación en este apasionante universo tech.</p>
+                </div>
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form action="">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" placeholder="nombre" id="form_name">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="e mail">
+                        <label for="name">contraseña</label>
+                        <input type="password" name="password" placeholder="contraseña">
+                        <input type="submit" value="Entrar" class="entrar">
+                    </form>
+                </div>
+            </sidebar>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+
+    <footer id="">Footer de la pagina
+
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+
+</html>

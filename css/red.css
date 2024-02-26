@@ -1,0 +1,61 @@
+body {
+  background: url("../img/rojo1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#global {
+  background: #ffeedb;
+}
+
+#logo,
+#acordeon .ui-state-active {
+  background: #8e233f;
+}
+
+#menu ul li:hover {
+  background: #8e233f;
+}
+
+.button-more,
+.subir,
+#logout,
+.entrar {
+  --color: #8e233f;
+}
+
+#sidebar img {
+  filter: grayscale(60%) hue-rotate(38deg) contrast(150%);
+}
+
+#sidebar h4 span {
+  background: #8e233fc4;
+  color: #e6f2fb;
+}
+
+#sidebar strong {
+  color: #8e233fc4;
+}
+
+/* reloj */
+.date2,
+.year {
+  color: #8e233f;
+}
+.day2 {
+  color: #0d6c7e;
+}
+.month2 {
+  color: #7c5800;
+}
+
+.front {
+  background: #8e233f;
+}
+.right {
+  background: #7c5800;
+}
+.left {
+  background: #0d6c7e;
+}

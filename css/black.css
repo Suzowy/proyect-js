@@ -1,0 +1,67 @@
+body {
+  background: url("../img/black2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#global {
+  background: #e9eaeb;
+}
+
+#logo,
+#acordeon .ui-state-active {
+  background: #344d63;
+}
+
+#menu ul li:hover {
+  background: #3e5c76;
+}
+
+.button-more,
+.subir,
+#logout,
+.entrar {
+  --color: #3e5c76;
+}
+
+.button-more:hover,
+.subir:hover,
+#logout:hover,
+#entrar:hover {
+  color: white;
+}
+
+#sidebar img {
+  filter: grayscale(90%) contrast(150%) hue-rotate(165deg);
+}
+
+#sidebar h4 span {
+  background: #344d63;
+  color: #e6f2fb;
+}
+
+#sidebar strong {
+  color: #344d63;
+}
+
+/* reloj */
+.date2,
+.year {
+  color: #001b07;
+}
+.day2 {
+  color: #344d63;
+}
+.month2 {
+  color: #3e5f61;
+}
+
+.front {
+  background: #001b07;
+}
+.right {
+  background: #3e5f61;
+}
+.left {
+  background: #344d63;
+}
