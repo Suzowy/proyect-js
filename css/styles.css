@@ -351,7 +351,6 @@ footer {
 
 .front {
   position: absolute;
- 
   top:70px;
   left: 0;
   z-index: 3;
@@ -551,21 +550,4 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 800px) {
-  #logo {
-    font-size: 20px;
-  }
 
-  #menu {
-    text-align: center;
-    font-size: 12px;
-    height: 50px;
-  }
-}
-
-@media (max-width: 692px) {
-  #menu {
-    text-align: center;
-    font-size: 10px;
-  }
-}

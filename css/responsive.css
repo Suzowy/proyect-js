@@ -1,0 +1,91 @@
+@media (max-width: 800px) {
+  #logo {
+    font-size: 20px;
+  }
+
+  #menu {
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 692px) {
+  #menu {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  #global {
+    width: 70%;
+  }
+  #logo {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  #menu{
+    text-align: left;
+    font-size: 6px;
+   
+  }
+
+  .galeria img {
+    width: 100%;
+    height: 210px;
+  }
+  #posts {
+    width: 100%;
+    float: left;
+    font-family: Helvetica, arial;
+  }
+  #sidebar {
+    width: 100%;
+  }
+
+  .bx-viewport {
+    height: 210px;
+  }
+
+  #box {
+    width: 100%;
+  }
+
+  .signboard {
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  .outer:active .right {
+    transform: rotate(-10deg) translateX(79px) scale(0.9);
+  }
+  .outer:active .left {
+    transform: rotate(8deg) translateX(-76px) scale(0.9);
+  }
+
+  .month,
+  .day {
+    font-size: 10px;
+    line-height: 40px;
+  }
+  .date {
+    font-size: 25px;
+    line-height: 20px;
+  }
+
+  .clock {
+    font-size: 25px;
+    line-height: 100px;
+  }
+
+  .subir{
+width: 25%;
+font-size: 12px;
+  }
+}
