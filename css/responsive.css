@@ -89,10 +89,10 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (min-width: 419px) {
   #global {
     top: 10%;
-    width: 75%;
+    width: 80%;
   }
   #logo {
     font-size: 20px;
@@ -100,21 +100,23 @@
 
   #menu {
     text-align: left;
-    font-size: 4px;
+    font-size: 5px;
   }
 
   #selector-theme {
-    top: 6%;
-    width: 28px;
+    top: 5%;
+    width: 27px;
+    height: 147px;
   }
 
   #to-blue,
   #to-red,
   #to-black {
-    width: 15px;
+    width: 10px;
     height: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 9px;
+    margin-bottom: 16px;
+    border-radius:6px;
   }
 
 
