@@ -10,25 +10,25 @@
   }
 }
 
-@media (max-width: 692px) {
+@media (max-width: 655px) {
   #menu {
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
 @media (max-width: 550px) {
   #global {
-    width: 70%;
+    width: 80%;
   }
   #logo {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0px;
   }
 
   #menu {
     text-align: left;
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .galeria img {
@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 419px) {
+@media (max-width: 503px) {
   #global {
     top: 10%;
     width: 80%;
