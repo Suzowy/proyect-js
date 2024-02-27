@@ -167,7 +167,7 @@ $(document).ready(function () {
 
         $("form input[name ='date']").datepicker(
             {
-                dateFormat: 'dd-mm-yyyy'
+                dateFormat: 'dd-mm-yy'
             })
 
         $.validate({
