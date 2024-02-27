@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   #logo {
     font-size: 20px;
   }
@@ -8,27 +8,10 @@
     font-size: 12px;
     height: 50px;
   }
-}
 
-@media (max-width: 655px) {
-  #menu {
-    text-align: center;
-    font-size: 9px;
-  }
-}
-
-@media (max-width: 550px) {
-  #global {
-    width: 80%;
-  }
-  #logo {
-    font-size: 20px;
-    margin-bottom: 0px;
-  }
-
-  #menu {
-    text-align: left;
-    font-size: 10px;
+  #menu a {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .galeria img {
@@ -43,13 +26,14 @@
   #sidebar {
     width: 100%;
   }
-
-  .bx-viewport {
-    height: 210px;
+  #acordeon {
+    font-size: 12px;
+    margin-top: 10px;
   }
 
-  #box {
+  #form_contact {
     width: 100%;
+    margin-top: 20px;
   }
 
   .signboard {
@@ -82,25 +66,28 @@
     font-size: 25px;
     line-height: 100px;
   }
+}
 
-  .subir {
-    width: 25%;
-    font-size: 12px;
+@media (max-width: 641px) {
+  #menu a {
+    padding-left: 14px;
+    padding-right: 14px;
   }
 }
 
-@media (max-width: 503px) {
+@media (max-width: 550px) {
   #global {
-    top: 10%;
     width: 80%;
   }
   #logo {
     font-size: 20px;
+    margin-bottom: 0px;
   }
 
   #menu {
     text-align: left;
-    font-size: 5px;
+    font-size: 12px;
+    text-align: center;
   }
 
   #selector-theme {
@@ -116,10 +103,28 @@
     height: 30px;
     margin-top: 9px;
     margin-bottom: 16px;
-    border-radius:6px;
+    border-radius: 6px;
   }
 
+  .bx-viewport {
+    height: 210px;
+  }
 
+  #box {
+    width: 100%;
+  }
+
+  .subir {
+    width: 25%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 503px) {
+  #global {
+    top: 10%;
+    width: 80%;
+  }
 
   #posts {
     font-size: 12px;
@@ -128,16 +133,6 @@
   h2 {
     font-size: 20px;
   }
-
-  #acordeon{
-    font-size: 12px;
-    margin-top: 10px;
-  }
-
-  #form_contact {
-    width: 100%;
-    margin-top: 20px;
-}
 
   .button-more,
   .subir,
@@ -177,5 +172,15 @@
   .subir {
     margin-top: 7px;
   }
+}
 
+@media (max-width: 503px) {
+  #menu {
+    font-size: 10px;
+  }
+
+  #menu a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
