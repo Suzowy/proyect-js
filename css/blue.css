@@ -25,6 +25,7 @@ body {
 }
 
 #sidebar img {
+  width: 100%;
   filter: grayscale(50%) hue-rotate(240deg) contrast(150%);
 }
 
